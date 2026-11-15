@@ -1,0 +1,6 @@
+# Ignored files
+.gemini/
+scratch/
+*.py
+*.pyc
+__pycache__/
