@@ -1,0 +1,7 @@
+services:
+  annapoorna:
+    build: .
+    container_name: annapoorna_app
+    ports:
+      - "80:80"
+    restart: always
