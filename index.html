@@ -8159,7 +8159,7 @@ button, input, select, textarea {
   };
 
   // 5. Initialize listeners on DOM Ready
-    function setupLanguageSelectors() {
+  function setupLanguageSelectors() {
     const picker = document.getElementById("annalink-language-select");
     if (picker) {
       picker.value = window.currentLanguage;
@@ -8167,10 +8167,6 @@ button, input, select, textarea {
         window.applyLanguage(this.value, true);
       };
     }
-    window.applyLanguage(window.currentLanguage, false);
-  };
-    });
-    // Initial translation application on load
     window.applyLanguage(window.currentLanguage, false);
   }
 
